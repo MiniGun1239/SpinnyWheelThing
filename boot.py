@@ -1,9 +1,9 @@
 import usb_hid
 
-# THIS IS MOSTLY FROM ADAFRUIT, NOT FULLY MY ORIGINAL CODE
-# I do not understand byte allocation, and a premade one existed,
-#   so I figured I'd just do that.
-# And I made slight modifications to it too.
+# THIS IS WRITTEN BASED ON ADAFRUIT's CODE
+# While this is almost something completely different, I did start with ADAFRUIT's code
+# Need to give credit where credit is due
+# https://learn.adafruit.com/customizing-usb-devices-in-circuitpython/hid-devices#custom-hid-devices-3096614-9
 
 GAMEPAD_REPORT_DESCRIPTOR = bytes((
     0x05, 0x01,         # Usage Page (Generic Desktop Ctrls)
@@ -33,7 +33,7 @@ steeringWheel = usb_hid.Device(
     usage_page=0x01,            # Generic Desktop Control
     usage=0x05,                 # Steering Wheel
     report_ids=(4,),            # Descriptor uses report ID 4
-    in_report_lengths=(4,),     # This sends 10 bytes in its report
+    in_report_lengths=(4,),     # This sends 4 bytes in its report
     out_report_lengths=(0,),    # It does not receive any reports
 )
 
