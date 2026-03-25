@@ -1,31 +1,22 @@
 # Spinny Wheel Thing
-A very feature-crept Steering wheel running on rpi pico
+A very spinning Steering wheel running on rpi pico
 
 ## Intro
 This is my attempt at making a sim wheel with (sadly) no FFB.
 
-## Setup
-### Step 1
-(Skip to **Step** 3 if firmware is ready with circuit python version 9.x or above)
+# Steering Assembly & Electronics Bill of Materials
 
-1. On your Raspberry Pi Pico (or Pico 2), There is a button ```BOOTSEL```.  
-2. Hold it and plug in the pi without releasing it.
+| Name                                        | Purpose                                                                                                           | Qty | Total (USD) | Distributor                      | Link                                                                                                                           |
+|:--------------------------------------------|:------------------------------------------------------------------------------------------------------------------|:---:|:------------|:---------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
+| **Supports (Block of wood, or 3D Printed)** | To hold everything together                                                                                       |  1  | $10.00      | Hardware Store or 3D print store | -                                                                                                                              |
+| **Gear**                                    | Gearing down the Potentiometer so that 2.5 turns of the wheel will turn the potentiometer 0.8 times (1:3.1 ratio) |  1  | $4.00       | Hardware Store                   | -                                                                                                                              |
+| **Bolt**                                    | Connected to the steering wheel and the gear to drive the belt system                                             |  2  | $3.00       | Hardware Store                   | -                                                                                                                              |
+| **Washer**                                  | To ensure easier turning so that the nuts wont be moving due to buildup of friction                               |  4  | $4.00       | Hardware Store                   | -                                                                                                                              |
+| **Pulley Belt**                             | Connecting the 2 gears without backlash                                                                           |  1  | $3.00       | Hardware Store                   | -                                                                                                                              |
+| **Nut**                                     | Stopping the steering wheel from turning too much and snapping the wiper + more stuff                             |  4  | $5.00       | Hardware Store                   | -                                                                                                                              |
+| **Ball Bearing**                            | To ensure smooth turning                                                                                          |  5  | $3.00       | Amazon                           | [Link to Listing](https://www.amazon.ae/gp/product/B0G1FX4NN2)                                                                 |
+| **Wires**                                   | Connecting components together                                                                                    |  1  | $6.00       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/premium-dupont-wire-kit-for-arduino-and-diy-projects-120pcs-20cm-multicolored.html) |
+| **Potentiometer**                           | Getting rotation data                                                                                             |  1  | $2.00       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/potentiometer-b10k.html)                                                            |
+| **Raspberry Pi Pico H**                     | Brains of the operation                                                                                           |  1  | $10.00      | Besomi                           | [Link to Listing](https://besomi.com/ae_en/raspberry-pi-pico-h.html)                                                           |
 
-You should be able to see a drive connected named ```PRI-PRI2```.  
-This is the Pi mounted as a **Mass Storage Device**
-
-### Step 2
-In this repo, there should be a ```boot/``` directory.  
-Inside it there is a ```.uf2``` file.  
-
-Move the ```adafruit-circuitpython-raspberry_pi_pico-en_US-10.1.4.uf2``` file into the ```RPI-RP2```'s root directory.  
-
-Disconnect the Pi.
-
-### Step 3
-Reconnect the Pi, do NOT hold ```BOOTSEL``` this time, if you did, go back to step 2
-
-From this repo, move ```boot.py``` and ```code```.py to the 
-
-### Step 4
-_TBA_
+**Total Estimated Cost: $28.00**
