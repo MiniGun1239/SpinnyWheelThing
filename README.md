@@ -21,3 +21,7 @@ This is my attempt at making a sim wheel with (sadly) no FFB.
 | **Raspberry Pi Pico H**                     | Brains of the operation                                                                                           |  1  | $10.00      | Besomi                           | [Link to Listing](https://besomi.com/ae_en/raspberry-pi-pico-h.html)                                                           |
 
 **Total Estimated Cost: $53.00**
+
+# Wiring Diagram
+
+![Wiring Diagram.png](Resources/Wiring%20Diagram.png)
