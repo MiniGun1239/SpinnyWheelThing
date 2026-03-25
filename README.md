@@ -15,13 +15,15 @@ This is my attempt at making a sim wheel with (sadly) no FFB.
 | **Washer**                                  | To ensure easier turning so that the nuts wont be moving due to buildup of friction                               |  4  | $4.00       | Hardware Store                   | -                                                                                                                              |
 | **Pulley Belt**                             | Connecting the 2 gears without backlash                                                                           |  1  | $3.00       | Hardware Store                   | -                                                                                                                              |
 | **Nut**                                     | Stopping the steering wheel from turning too much and snapping the wiper + more stuff                             |  4  | $5.00       | Hardware Store                   | -                                                                                                                              |
-| **Ball Bearing**                            | To ensure smooth turning                                                                                          |  5  | $3.00       | Amazon                           | [Link to Listing](https://www.amazon.ae/gp/product/B0G1FX4NN2)                                                                 |
-| **Wires**                                   | Connecting components together                                                                                    |  1  | $6.00       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/premium-dupont-wire-kit-for-arduino-and-diy-projects-120pcs-20cm-multicolored.html) |
+| **Ball Bearing**                            | To ensure smooth turning                                                                                          |  5  | $2.00       | Amazon                           | [Link to Listing](https://www.amazon.ae/gp/product/B0G1FX4NN2)                                                                 |
+| **Wires**                                   | Connecting components together                                                                                    |  1  | $5.50       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/premium-dupont-wire-kit-for-arduino-and-diy-projects-120pcs-20cm-multicolored.html) |
 | **Potentiometer**                           | Getting rotation data                                                                                             |  1  | $2.00       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/potentiometer-b10k.html)                                                            |
-| **Raspberry Pi Pico H**                     | Brains of the operation                                                                                           |  1  | $10.00      | Besomi                           | [Link to Listing](https://besomi.com/ae_en/raspberry-pi-pico-h.html)                                                           |
+| **Raspberry Pi Pico H**                     | Brains of the operation                                                                                           |  1  | $8.50       | Besomi                           | [Link to Listing](https://besomi.com/ae_en/raspberry-pi-pico-h.html)                                                           |
 
-**Total Estimated Cost: $53.00**
+**Total Estimated Cost: $47.00**  
+_(Price is subject to change (possibly lower), this figure is purely an estimate.)_
 
 # Wiring Diagram
 
 ![Wiring Diagram.png](Resources/Wiring%20Diagram.png)
+
