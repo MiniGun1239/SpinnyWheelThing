@@ -25,5 +25,8 @@ _(Price is subject to change (possibly lower), this figure is purely an estimate
 
 # Wiring Diagram
 
-![Wiring Diagram.png](Resources/Wiring%20Diagram.png)
+![Wiring Diagram.png](resources/wiring_diagram.png)
 
+# Project pictures
+
+![Top Corner View of CAD Model](resources/top_corner_view.png)
