@@ -20,7 +20,7 @@ This is my attempt at making a sim wheel with (sadly) no FFB.
 | **Potentiometer**       | Getting rotation data                      | 1   | $2.00       | Besomi                      | [Link to listing](https://besomi.com/ae_en/potentiometer-b10k.html)                                                            |
 | **Raspberry Pi Pico H** | Brains of the operation                    | 1   | $8.50       | Besomi                      | [Link to listing](https://besomi.com/ae_en/raspberry-pi-pico-h.html)                                                           |
 
-**Total Estimated Cost: $47.00**  
+**Total Estimated Cost: ~$80.00**  
 _(Price is subject to change (possibly lower), this figure is purely an estimate.)_
 
 # Wiring Diagram
